@@ -1,0 +1,63 @@
+@media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções_botão:checked ~ .lista-menu {
+      display: block;
+      width: auto;
+    }
+  
+    /* Código omitido */
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções_botão {
+      display: none;
+    }
+  
+    /* Código omitido */
+  }
+  @media screen and (min-width: 1728px) {
+  }
+  @media screen and (min-width: 1728px) {
+    .container__link {
+      display: flex;
+      align-items: center;
+    }
+  }
+  @media screen and (min-width: 1728px) {
+    .container__link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: var(--preto);
+    }
+  }
+  .container__botao:checked ~ .container__rotulo > .cabeçalho__menu-hamburguer {
+    background-image: url("../img/MenuAberto.svg");
+  }
+  .container__botao:checked ~ .container__rotulo {
+    background: var(--azul-degrade);
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções__botão:checked ~ .opções__rotulo > .opções__item {
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções__botão:checked ~ .opções__rotulo > .opções__item {
+      background: var(--azul-degrade);
+      color: var(--branco);
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    /* Código omitido */
+  
+    .opções__item {
+      padding: 2em 1em;
+    }
+  }
